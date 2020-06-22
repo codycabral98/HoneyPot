@@ -1,0 +1,3 @@
+google: lightswitch96
+work: lightbulb76
+bank: lightstand84

@@ -1,0 +1,4 @@
+Building Entrance: 9074
+Office Entrance: 6091
+Supply Locker: 8372
+Server Room: 0981
