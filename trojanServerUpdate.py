@@ -20,7 +20,7 @@ while True:
           "6: Create File \n"
           "7: Return ipconfig (TODO...) \n"
           "8: Execute custom CMD command \n"
-          "9: Shut it down -MC Hammer \n"
+          "9: Shut it down \n"
           )
     print()
     command = input(str("command >> "))
