@@ -8,12 +8,11 @@ q = queue.Queue()
 # number of threads to spawn
 n_threads = 30
 # hostname or IP address of the FTP server
-host = "192.168.1.11"
+host = '192.168.1.10'
 # username of the FTP server
-user = "client"
+user = 'Administrator'
 # port of FTP, aka 21
 port = 21
-
 def connect_ftp():
     global q
     while True:
@@ -27,6 +26,7 @@ def connect_ftp():
             server.connect(host, port, timeout=5)
             # login using the credentials (user & password)
             server.login(user, password)
+           
         except ftplib.error_perm:
             # login failed, wrong credentials
             pass
